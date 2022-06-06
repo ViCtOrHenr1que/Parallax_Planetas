@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1,h2{
+    margin: 0;
+    font-weight: 900;
+    color:#000
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+} main{
+    display: block;
+    background-color: #ffff;
+
+}
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+/*           ATENÇÃO         */
+section.module.content{
+padding: 40px 0 ;
+background: #eCe7d5;
+}
+/*----------------------------*/
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+section.module.parallax:after {
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 8;
+background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+;
+background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+section.module.parallax-1 {
+    background-image: url('./imgs/1.jpg');
+    max-width: 100%;
+}
+section.module.parallax-2 {
+    background-image: url('./imgs/2sol.jpg');
+    max-width: 100%;
+}
+section.module.parallax-3 {
+    background-image: url('./imgs/3mercurio.jpg');
+    max-width: 100%;
+}
+section.module.parallax-4 {
+    background-image: url('./imgs/4venus.jpg');
+    max-width: 100%;
+}
+section.module.parallax-5 {
+    background-image: url('./imgs/5terra.jpg');
+    max-width: 100%;
+}
+section.module.parallax-6 {
+    background-image: url('./imgs/6marte.jpg');
+    max-width: 100%;
+}
+section.module.parallax-7 {
+    background-image: url('./imgs/7jupiter.jpg');
+    max-width: 100%;
+}
+section.module.parallax-8 {
+    background-image: url('./imgs/8saturno.jpg');
+    max-width: 100%;
+}
+section.module.parallax-9 {
+    background-image: url('./imgs/9urano.jpg');
+    max-width: 100%;
+}section.module.parallax-10 {
+    background-image: url('./imgs/10netuno.jpg');
+    max-width: 100%;
+}
+section.module.parallax h1 {
+
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.306);
+    color: #000;
+    padding: 20px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1c1c;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.258);
+    border-radius: 30px;
+}
